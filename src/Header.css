@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: clamp(10px, 50px, 4vw);
+  background-color: rgb(220, 191, 246);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header .currencies {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header span {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    display: inline-block;
+}

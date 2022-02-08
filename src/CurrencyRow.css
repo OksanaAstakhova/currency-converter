@@ -1,0 +1,16 @@
+.currency-row {
+    display: flex;
+}
+
+.amount-input, select {
+    border-radius: 3px;
+    padding: 10px;
+font-size: 1rem;
+}
+.amount-input {
+    border: 1px solid #646363;
+}
+
+select {
+    margin-left: 10px;
+}
